@@ -1,9 +1,15 @@
 import { RiGithubLine, RiLayout5Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { Card } from '../../data/projects';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
-const CardProject = ({ card }) => {
+
+type Props = {
+    card: Card
+}
+
+const CardProject = ({ card }: Props) => {
     AOS.init();
     return (
         <div 
