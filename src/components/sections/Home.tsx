@@ -46,7 +46,7 @@ const Home: React.FC = () => {
             </div>
             {/* BOX STACK  */}
             <div className="mt-2 md:mt-8 flex flex-col md:flex-row items-center gap-2 md:gap-8">
-                <div className="text-lg md:text-xl">Tech Stack 👉🏻</div>
+                <div className="text-lg md:text-xl">Tech Stack  <span className="text-2xl hidden md:inline">👉🏻</span></div>
                 <div className="flex flex-row items-center gap-2 md:gap-4">
                     <svg width="35.93" height="32" viewBox="0 0 256 228">
                         <path
