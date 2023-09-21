@@ -2,8 +2,7 @@ import { expect, test, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import CardProject from "../src/components/sections/CardProject";
-// eslint-disable-next-line no-unused-vars
-import { Link } from "react-router-dom";
+
 
 vi.mock("react-router-dom");
 
