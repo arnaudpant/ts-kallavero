@@ -25,9 +25,10 @@ const About: React.FC = () => {
                         nuits 😵‍💫 à coder des logiciels ou des sites web, je
                         me suis tout naturellement reconverti comme
                         développeur web React & TypeScript pour ma deuxième carrière
-                        avec vous qui recherchez des
+                        pour vous qui recherchez des
                         développeurs avec un vécu et un savoir être. 🫡
                     </p>
+                    <p className="text-lg pt-4 px-8 md:px-0">Travail en remote 💻 et en région parisienne possible.</p>
                     <div className="flex flex-row items-center mt-4">
                         <p className="text-base italic pl-8 pr-2 md:pl-0">
                             Plus d'infos ici:{" "}

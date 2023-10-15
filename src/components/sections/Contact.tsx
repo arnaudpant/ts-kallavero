@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                     <h2 className="text-xl md:text-2xl text-center md:text-left text-secondaire font-bold px-8 md:px-0">
                         Localisation
                     </h2>
-                    <div className="w-full md:w-1/2 flex flex-row items-center justify-center md:justify-left  md:mt-0 pt-4">
+                    <div className="w-full md:w-1/2 flex flex-row items-center justify-center md:justify-start md:mt-0 pt-4">
                         <RiMapPin2Line className="text-4xl text-secondaire mr-2" />
                         <p>Nancy, FRANCE 🇫🇷</p>
                     </div>

@@ -9,11 +9,19 @@ export type Card = {
 
 export const projects: Card[] = [
     {
+        img: "./Site7.png",
+        title: "Racks à pinard",
+        text: "Site en cours de développement",
+        code: "https://github.com/arnaudpant/ts-rack-pinard",
+        tech: ["TypeScript", "React", "Firebase"],
+        demo: "https://rack-a-pinard.web.app/",
+    },
+    {
         img: "./Site4.png",
         title: "N'Joy Life",
-        text: "Commande pour un client: Site professionnel d'une naturopathe, design effectué sur Figma.",
+        text: "Commande pour un client - En cours de recodage",
         code: "",
-        tech: ["Vanilla JS", "SASS", "Figma"],
+        tech: ["TypeScript", "Tailwind", "Figma"],
         demo: "https://www.joelle-corda-naturopathe.fr/index.html",
     },
     {
@@ -27,7 +35,7 @@ export const projects: Card[] = [
     },
     {
         //TODO: Responsive
-        img: "./Site1.png",
+        img: "./Site_FitBody.png",
         title: "FitBody",
         text: "Site vitrine d'une salle de sport.",
         code: "https://github.com/arnaudpant/fitbody",
