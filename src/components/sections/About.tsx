@@ -20,8 +20,8 @@ const About: React.FC = () => {
                         chasse au sein d'équipes de mécaniciens ✈️
                         <br />
                         J'ai découvert le code pour touver les solutions aux
-                        problèmes que je rencontrais en tant que chef d'équipe
-                        🤔 <br /> Et après avoir passé des heures et même des
+                        problèmes que je rencontrais en tant que chef d'équipe.
+                        🤔 <br /> Après avoir passé des heures et parfois des
                         nuits 😵‍💫 à coder des logiciels ou des sites web, je
                         me suis tout naturellement reconverti comme
                         développeur web React & TypeScript pour ma deuxième carrière

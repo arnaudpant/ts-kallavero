@@ -43,7 +43,7 @@ const Home: React.FC = () => {
             </div>
             {/* BOX STACK  */}
             <div className="mt-2 md:mt-8 flex flex-col md:flex-row items-center gap-2 md:gap-8">
-                <div className="text-lg md:text-xl">Tech Stack  <span className="text-2xl hidden md:inline">👉🏻</span></div>
+                <div className="text-lg md:text-xl">Stack  <span className="text-2xl hidden md:inline">👉🏻</span></div>
                 <div className="flex flex-row items-center gap-2 md:gap-4">
                     {/* React */}
                     <svg width="35.93" height="32" viewBox="0 0 256 228">
@@ -100,7 +100,6 @@ const Home: React.FC = () => {
                             d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"
                         />
                     </svg>
-                    <svg width="48px" height="48px" viewBox="0 0 32 32"><title>file_type_tailwind</title><path d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z" fill="#44a8b3" /></svg>
                 </div>
             </div>
             {/* BOX SWIPPE */}
