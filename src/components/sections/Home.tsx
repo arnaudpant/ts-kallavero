@@ -5,19 +5,33 @@ import { RiLinkedinFill } from "react-icons/ri";
 
 const Home: React.FC = () => {
     return (
-        <section className="w-full min-h-screen flex flex-col justify-evenly md:justify-center items-center bg-background"
+        <section className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-background"
             id="home">
-            <div className="container mx-auto flex flex-col-reverse justify-center items-center gap-2 md:flex-row md:justify-around md:gap-x-8">
-                {/* Box Titre */}
-                <div className="text-center md:text-left">
-                    <h1 className="text-2xl md:text-3xl font-bold px-4 md:px-0">
-                        Développeur Front-End <br />
-                        React | TypeScript
+
+            {/* == BLOC B & C == */}
+            <div className="flex flex-col-reverse justify-around items-center h-4/5 w-full md:flex-row md:h-3/5 md:px-10">
+
+                {/* Bloc C Infos */}
+                <div className="flex flex-col justify-around grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10">
+
+                    <h1 className="text-xl md:text-3xl font-semibold px-8 md:px-0">
+                        Ensemble développons un produit web innovant !
                     </h1>
-                    <p className="text-lg pt-4 px-4 md:text-xl md:px-0">
-                        Bonjour, je suis Arnaud. <span>👋🏻</span>
-                    </p>
-                    <p className="pt-2">Développeur React à Nancy, France 🇫🇷 </p>
+                    <div>
+                        <p className="text-lg pt-4 px-4 md:text-xl md:px-0">
+                            Bonjour, je suis Arnaud. <span>👋🏻</span>
+                        </p>
+                        <p className="text-lg pt-2 px-4 md:text-xl md:px-0">
+                            Développeur Front-End
+                        </p>
+                        <p className="text-lg pt-2 px-4 md:text-xl md:px-0">React & Typescript
+                        </p>
+                    </div>
+                    <button className="w-40 mx-auto bg-secondaire rounded mt-4 px-2 py-1 text-primaire md:mx-0">
+                        <a href="mailto:arnaud.pantenier@gmail.com">
+                            Contactez-moi
+                        </a>
+                    </button>
                     <div className="flex flex-row justify-center md:justify-start mt-2 md:mt-4 gap-4">
                         <Link to="https://www.linkedin.com/in/arnaud-pantenier/">
                             <RiLinkedinFill className="text-3xl text-secondaire cursor-pointer" />
@@ -26,24 +40,22 @@ const Home: React.FC = () => {
                             <RiGithubLine className="text-3xl text-secondaire cursor-pointer mr-2" />
                         </Link>
                     </div>
-                    <button className="bg-secondaire rounded mt-4 px-2 py-1 text-primaire">
-                        <a href="mailto:arnaud.pantenier@gmail.com">
-                            Contactez-moi
-                        </a>
-                    </button>
                 </div>
-                {/* Box Photo */}
-                <div className="w-40 md:w-80">
+
+                {/* Bloc B Portrait */}
+                <div className="mt-8 md:w-1/3 md:mt-0">
                     <img
                         src={arnaud}
                         alt="Portrait de Arnaud"
-                        className="rounded-full shadow-lg"
+                        className="w-1/2 mx-auto rounded-full shadow-lg md:w-full"
                     />
                 </div>
+
             </div>
+
+
             {/* BOX STACK  */}
-            <div className="mt-2 md:mt-8 flex flex-col md:flex-row items-center gap-2 md:gap-8">
-                <div className="text-lg md:text-xl">Stack  <span className="text-2xl hidden md:inline">👉🏻</span></div>
+            <div className="mt-2 flex flex-col md:flex-row items-center gap-2 md:gap-8">
                 <div className="flex flex-row items-center gap-2 md:gap-4">
                     {/* React */}
                     <svg width="35.93" height="32" viewBox="0 0 256 228">
@@ -81,30 +93,13 @@ const Home: React.FC = () => {
                             d="M104.529 49.53L58.013 3.017a6.86 6.86 0 0 0-9.703 0l-9.659 9.66l12.253 12.252a8.145 8.145 0 0 1 8.383 1.953a8.157 8.157 0 0 1 1.936 8.434L73.03 47.125c2.857-.984 6.154-.347 8.435 1.938a8.161 8.161 0 0 1 0 11.545a8.164 8.164 0 0 1-13.324-8.88L57.129 40.716l-.001 28.98a8.248 8.248 0 0 1 2.159 1.544a8.164 8.164 0 0 1 0 11.547c-3.19 3.19-8.36 3.19-11.545 0a8.164 8.164 0 0 1 2.672-13.328v-29.25a8.064 8.064 0 0 1-2.672-1.782c-2.416-2.413-2.997-5.958-1.759-8.925l-12.078-12.08L2.011 49.314a6.863 6.863 0 0 0 0 9.706l46.516 46.514a6.862 6.862 0 0 0 9.703 0l46.299-46.297a6.866 6.866 0 0 0 0-9.707"
                         />
                     </svg>
-                    {/* Firebase */}
-                    <svg viewBox="0 0 48 48" width="48px" height="48px">
-                        <path
-                            fill="#ff8f00"
-                            d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"
-                        />
-                        <path
-                            fill="#ffa000"
-                            d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z"
-                        />
-                        <path
-                            fill="#ff6f00"
-                            d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z"
-                        />
-                        <path
-                            fill="#ffc400"
-                            d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"
-                        />
-                    </svg>
                 </div>
             </div>
+
+
             {/* BOX SWIPPE */}
-            <div className="relative flex justify-center h-12">
-                <div className="home-swippe-icon-scroll md:hidden"></div>
+            <div className="relative flex justify-center h-12 md:hidden">
+                <div className="home-swippe-icon-scroll "></div>
             </div>
         </section>
     );

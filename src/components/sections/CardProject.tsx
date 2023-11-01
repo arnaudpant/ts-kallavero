@@ -22,10 +22,12 @@ const CardProject = ({ card }: Props) => {
             </div>
             {/* DESCRIPTIF */}
             <div className="md:w-2/5 p-4 flex flex-col justify-between">
-                <p className="text-lg text-center font-semibold ">
+
+                <p className="text-lg text-center font-semibold pb-4">
                     {card.title}
                 </p>
-                <p className="text-md text-center">{card.text}</p>
+
+                <p className="text-md text-center pb-4">{card.text}</p>
                 <div className="flex flex-row justify-center gap-2 flex-wrap">
                     {card.tech.map((tech, index) => (
                         <div className="bg-primaire px-3 rounded-lg" key={index}>{tech}</div>
