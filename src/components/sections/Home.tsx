@@ -47,7 +47,7 @@ const Home: React.FC = () => {
                     <img
                         src={arnaud}
                         alt="Portrait de Arnaud"
-                        className="w-1/2 mx-auto rounded-full shadow-lg md:w-full"
+                        className="w-1/2 mx-auto rounded-full shadow-lg md:w-full xl:w-2/3 lg:mx-0"
                     />
                 </div>
 
