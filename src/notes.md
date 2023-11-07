@@ -1,26 +1,16 @@
 # ARCHITECTURE
 
-- HEADER
-    - Logo
-    - Titre
-    - BTN Inscription sur page HOME
-        => click: Ouverture modal ou Component pour inscription (Firebase)
-
-- CONTAINER AVANT CONNEXION
-    - Form de connexion l'utilisateur
-        => Submit: Récupération API et affichage des racks de l
-    - BTN DEMO
-        => Click: Ouverture des racks avec deux racks de demo en local
-
-- CONTAINER APRES CONNEXION
-    - SEARCH
-    - Resultat de la recherche
-    - Rack 1
-        - Modal Bouteille
-            - Si vide: BTN Ajouter une bouteille
-            - Infos bouteille
-            - BTN Suppression
-            - BTN Edit
-    
-    
-    - Rack 2
+.blueA {
+  --blue-a1: #0080ff04;
+  --blue-a2: #008cff0b;
+  --blue-a3: #008ff519;
+  --blue-a4: #009eff2a;
+  --blue-a5: #0093ff3d;
+  --blue-a6: #0088f653;
+  --blue-a7: #0083eb71;
+  --blue-a8: #0084e6a1;
+  --blue-a9: #0090ff;
+  --blue-a10: #0086f0fa;
+  --blue-a11: #006dcbf2;
+  --blue-a12: #002359ee;
+}
