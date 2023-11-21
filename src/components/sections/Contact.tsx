@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
 
                     <div className="flex flex-col md:flex-row items-center w-full md:w-1/2 mt-4 gap-y-4">
                         <div className="flex flex-row items-center">
-                            <button className="flex flex-row items-center bg-rad9 rounded px-2 py-1 text-rad1">
+                            <button className="flex flex-row items-center bg-rad10 hover:bg-rad8 rounded px-2 py-1 text-rad1">
                                 <RiMailSendFill className="text-4xl text-primaire mr-2" />
                                 <a href="mailto:arnaud.pantenier@gmail.com">
                                     Contactez-moi

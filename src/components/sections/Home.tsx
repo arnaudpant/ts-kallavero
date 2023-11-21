@@ -27,7 +27,7 @@ const Home: React.FC = () => {
                         <p className="text-lg pt-2 px-4 md:text-xl md:px-0">React & Typescript
                         </p>
                     </div>
-                    <button className="w-40 mx-auto bg-rad9 rounded mt-4 px-2 py-1 text-rad1 md:mx-0">
+                    <button className="w-40 mx-auto bg-rad10 hover:bg-rad8 rounded mt-4 px-2 py-1 text-rad1 md:mx-0">
                         <a href="mailto:arnaud.pantenier@gmail.com">
                             Contactez-moi
                         </a>

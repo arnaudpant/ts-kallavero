@@ -9,7 +9,7 @@ export type Card = {
 
 export const projects: Card[] = [
     {
-        img: "./Site7.png",
+        img: "./Site1.png",
         title: "Racks à pinard",
         text: "Application de gestion de bouteilles de vin (En développement)",
         code: "https://github.com/arnaudpant/ts-rack-pinard",
@@ -23,6 +23,14 @@ export const projects: Card[] = [
         code: "",
         tech: ["TypeScript", "Tailwind", "Figma"],
         demo: "https://www.joelle-corda-naturopathe.fr/index.html",
+    },
+    {
+        img: "./Site3.png",
+        title: "Clone Netflix",
+        text: "Clone du site de Netflix",
+        code: "https://github.com/arnaudpant/ts-netflix",
+        tech: ["React", "TypeScript", "Firebase"],
+        demo: "https://kal-netflix-clone.netlify.app/",
     },
     {
         // TODO: Site responsive

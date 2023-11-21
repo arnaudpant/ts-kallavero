@@ -23,11 +23,10 @@ const About: React.FC = () => {
                         J'ai découvert le code pour touver les solutions aux
                         problèmes que je rencontrais en tant que chef d'équipe.
                         🤔 <br /> Après avoir passé des heures et parfois des
-                        nuits 😵‍💫 à coder des logiciels ou des sites web, je
-                        me suis tout naturellement reconverti comme
-                        développeur web React & TypeScript pour ma deuxième carrière
-                        pour vous qui recherchez des
-                        développeurs avec un vécu et un savoir être. 🫡
+                        nuits 😵‍💫 à créer des logiciels et des sites internet, je
+                        me suis pris de passion pour le développement web et je me suis lancé dans une deuxième carrière comme
+                        développeur Front-End React & TypeScript. <br />Si vous qui cherchez un
+                        développeur avec un vécu et un savoir être, contactez-moi. 🫡
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">Travail en remote 💻 et en région parisienne possible.</p>
                     <div className="flex flex-row items-center mt-4">
@@ -49,7 +48,7 @@ const About: React.FC = () => {
                         alt="laptop with developer"
                         className="rounded-xl shadow-lg"
                     />
-                     <img
+                    <img
                         src={mirage}
                         alt="laptop with developer"
                         className="rounded-xl shadow-lg mt-4"
