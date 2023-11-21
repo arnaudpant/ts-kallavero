@@ -3,7 +3,7 @@ import { RiLinkedinFill } from "react-icons/ri";
 
 const Footer: React.FC = () => {
     return (
-        <footer className="md:h-14 flex flex-col md:flex-row flex-wrap justify-around items-center bg-secondaire text-primaire">
+        <footer className="md:h-14 flex flex-col md:flex-row flex-wrap justify-around items-center bg-rad10 text-rad1">
             <p className="pt-2 text-center">Site créé avec React et TypeScript</p>
             <p className="pt-2 text-center">Tous droits réservés &copy; 2023</p>
             <div className="flex flex-row p-2 gap-4">

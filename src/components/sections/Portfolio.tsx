@@ -7,13 +7,13 @@ import CardProject from './CardProject';
 const Portfolio: React.FC = () => {
     return (
         <section
-            className="w-full flex flex-col justify-evenly md:justify-center items-center bg-background"
+            className="w-full flex flex-col justify-evenly md:justify-center items-center bg-rad2 text-rad12"
             id="portfolio"
         >
-            <div className="container mx-auto my-16 md:px-4 flex flex-col">
+            <div className="container mx-auto my-16 md:px-4 flex flex-col ">
                 {/* Box Titre */}
                 <div className="text-left">
-                    <h2 className="text-xl md:text-2xl text-secondaire font-bold px-8 md:px-0">
+                    <h2 className="text-xl md:text-2xl text-rad9 font-bold px-8 md:px-0">
                         Portfolio
                     </h2>
                     <p className="text-lg pt-4 px-8 md:px-0">

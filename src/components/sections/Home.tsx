@@ -5,14 +5,14 @@ import { RiLinkedinFill } from "react-icons/ri";
 
 const Home: React.FC = () => {
     return (
-        <section className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-background"
+        <section className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-gradient-to-bl from-rad1 via-rad2 to-rad3"
             id="home">
 
             {/* == BLOC B & C == */}
             <div className="flex flex-col-reverse justify-around items-center h-4/5 w-full md:flex-row md:h-3/5 md:px-10">
 
                 {/* Bloc C Infos */}
-                <div className="flex flex-col justify-around grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10">
+                <div className="flex flex-col justify-around grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
 
                     <h1 className="text-xl md:text-3xl font-semibold px-8 md:px-0">
                         Ensemble développons un produit web innovant !
@@ -27,17 +27,17 @@ const Home: React.FC = () => {
                         <p className="text-lg pt-2 px-4 md:text-xl md:px-0">React & Typescript
                         </p>
                     </div>
-                    <button className="w-40 mx-auto bg-secondaire rounded mt-4 px-2 py-1 text-primaire md:mx-0">
+                    <button className="w-40 mx-auto bg-rad9 rounded mt-4 px-2 py-1 text-rad1 md:mx-0">
                         <a href="mailto:arnaud.pantenier@gmail.com">
                             Contactez-moi
                         </a>
                     </button>
                     <div className="flex flex-row justify-center md:justify-start mt-2 md:mt-4 gap-4">
                         <Link to="https://www.linkedin.com/in/arnaud-pantenier/">
-                            <RiLinkedinFill className="text-3xl text-secondaire cursor-pointer" />
+                            <RiLinkedinFill className="text-3xl text-rad10 cursor-pointer" />
                         </Link>
                         <Link to="https://github.com/arnaudpant/">
-                            <RiGithubLine className="text-3xl text-secondaire cursor-pointer mr-2" />
+                            <RiGithubLine className="text-3xl text-rad10 cursor-pointer mr-2" />
                         </Link>
                     </div>
                 </div>
