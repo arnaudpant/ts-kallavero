@@ -12,10 +12,10 @@ type Props = {
 const CardProject = ({ card }: Props) => {
     AOS.init();
     return (
-        <div 
+        <div
             data-aos="fade-up" data-aos-offset="100" data-aos-delay="50" data-aos-duration="1200" data-aos-once="true"
-        
-        className="w-4/5 mx-auto my-8 max-w-3xl shadow-xl rounded-3xl flex flex-col md:flex-row gap-2 overflow-hidden bg-rad3">
+
+            className="w-4/5 mx-auto my-8 max-w-3xl shadow-xl rounded-3xl flex flex-col md:flex-row gap-2 overflow-hidden bg-rad3">
             {/* IMAGE */}
             <div className="md:w-3/5">
                 <img src={card.img} alt="" className="rounded-2xl shadow-lg" />
@@ -49,9 +49,19 @@ const CardProject = ({ card }: Props) => {
                     </span>
                     <p className="text-sm pr-1 text-rad11">Demo</p>
                     <span>
-                        <Link to={card.demo}>
-                            <RiLayout5Fill className="text-2xl cursor-pointer mr-2 text-rad11" />
-                        </Link>
+                        {
+                            card.demo !== "" ? (
+                                <Link to={card.demo}>
+                                    <RiLayout5Fill className="text-2xl cursor-pointer mr-2 text-rad11" />
+                                </Link>
+                            )
+                                :
+                                (
+                                    <div className="text-3xl mr-6 cursor-not-allowed">
+                                        ⛔️
+                                    </div>
+                                )
+                        }
                     </span>
                 </div>
             </div>

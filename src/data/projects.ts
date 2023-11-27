@@ -30,7 +30,7 @@ export const projects: Card[] = [
         text: "Clone du site de Netflix",
         code: "https://github.com/arnaudpant/ts-netflix",
         tech: ["React", "TypeScript", "Firebase"],
-        demo: "https://kal-netflix-clone.netlify.app/",
+        demo: "",
     },
     {
         // TODO: Site responsive
