@@ -20,12 +20,10 @@ const About: React.FC = () => {
                         carrière dans l'Armée de l'Air a réparer et entretenir des avions de
                         chasse au sein d'équipes de mécaniciens ✈️
                         <br />
-                        J'ai découvert le code pour touver les solutions aux
-                        problèmes que je rencontrais en tant que chef d'équipe.
-                        🤔 <br /> Après avoir passé des heures et parfois des
-                        nuits 😵‍💫 à créer des logiciels et des sites internet, je
-                        me suis pris de passion pour le développement web et je me suis lancé dans une deuxième carrière comme
-                        développeur Front-End React & TypeScript. <br />Si vous qui cherchez un
+                        J'ai découvert le code pour trouver les solutions aux
+                        problèmes que je rencontrais en tant que chef d'équipe 🤔 en créant des programmes ou des sites internet.
+                        <br /> Pratiquant la photo et le dessin, je me suis pris de passion pour le développement front qui permet d'exprimer également sa créativité.<br />
+                        Ainsi je me suis lancé dans une deuxième carrière en tant que développeur Front-End React & TypeScript. <br />Si vous qui cherchez un
                         développeur avec un vécu et un savoir être, contactez-moi. 🫡
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">Travail en remote 💻 et en région parisienne possible.</p>
