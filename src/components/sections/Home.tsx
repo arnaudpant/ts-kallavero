@@ -1,4 +1,4 @@
-import arnaud from "./../../img/arnaud.jpg";
+import arnaud from "../../img/arnaud.jpeg";
 import { Link } from "react-router-dom";
 import { RiGithubLine } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";

@@ -17,7 +17,7 @@ const Portfolio: React.FC = () => {
                         Portfolio
                     </h2>
                     <p className="text-lg pt-4 px-8 md:px-0">
-                        Mes projets 🔎
+                        Mes principaux projets 🔎
                     </p>
                 </div>
 
