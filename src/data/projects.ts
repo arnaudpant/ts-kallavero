@@ -19,8 +19,8 @@ export const projects: Card[] = [
     {
         img: "./Site4.png",
         title: "N'Joy Life",
-        text: "Commande pour un client. Landing page d'une naturopathe",
-        code: "",
+        text: "Landing page d'une naturopathe (Commande pour un client)",
+        code: "https://github.com/arnaudpant/ts-njoylife",
         tech: ["TypeScript", "Tailwind", "Figma"],
         demo: "https://www.joelle-corda-naturopathe.fr/index.html",
     },

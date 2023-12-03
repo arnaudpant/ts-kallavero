@@ -15,7 +15,7 @@ const Home: React.FC = () => {
                 <div className="flex flex-col justify-around grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
 
                     <h1 className="text-xl md:text-3xl font-semibold px-8 md:px-0">
-                        Ensemble développons un produit web innovant !
+                        Ensemble développons un produit web innovant
                     </h1>
                     <div>
                         <p className="text-lg pt-4 px-4 md:text-xl md:px-0">
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
                         <p className="text-lg pt-2 px-4 md:text-xl md:px-0">
                             Développeur Front-End
                         </p>
-                        <p className="text-lg pt-2 px-4 md:text-xl md:px-0">React & Typescript
+                        <p className="text-lg pt-2 px-4 md:text-2xl md:px-0">React & Typescript
                         </p>
                     </div>
                     <button className="w-40 mx-auto bg-rad10 hover:bg-rad8 rounded mt-4 px-2 py-1 text-rad1 md:mx-0">
