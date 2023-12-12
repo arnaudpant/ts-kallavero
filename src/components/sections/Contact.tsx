@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
                         <div className="flex flex-row items-center">
                             <button className="flex flex-row items-center bg-rad10 hover:bg-rad8 rounded px-2 py-1 text-rad1">
                                 <RiMailSendFill className="text-4xl text-primaire mr-2" />
-                                <a href="mailto:arnaud.pantenier@gmail.com">
+                                <a href="mailto:arnaud.pantenier@gmail.com" itemProp = "email">
                                     Contactez-moi
                                 </a>
                             </button>
@@ -35,9 +35,9 @@ const Contact: React.FC = () => {
                     <h2 className="text-xl md:text-2xl text-center md:text-left text-rad9 font-bold px-8 md:px-0">
                         Localisation
                     </h2>
-                    <div className="w-full md:w-1/2 flex flex-row items-center justify-center md:justify-start md:mt-0 pt-4">
+                    <div className="w-full md:w-1/2 flex flex-row items-center justify-center md:justify-start md:mt-0 pt-4" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
                         <RiMapPin2Line className="text-4xl text-rad9 mr-2" />
-                        <p>Nancy, FRANCE 🇫🇷</p>
+                        <p itemProp="addressLocality">Nancy, FRANCE 🇫🇷</p>
                     </div>
                     <p className="pt-4 text-center md:text-left">Ouvert au télétravail et région parisienne</p>
                 </div>
