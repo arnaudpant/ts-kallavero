@@ -16,17 +16,28 @@ const About: React.FC = () => {
                         A propos de moi
                     </h2>
                     <p className="text-lg pt-4 px-8 md:px-0 ">
-                        Passionné d'aviation et pilote d'ULM, j'ai effectué une première
-                        carrière dans l'Armée de l'Air a réparer et entretenir des avions de
-                        chasse au sein d'équipes de mécaniciens ✈️
+                        Fana d'aviation, j'ai effectué une première carrière
+                        dans l'Armée de l'Air a réparer et entretenir des avions
+                        de chasse au sein d'équipes de mécaniciens ✈️
                         <br />
                         J'ai découvert le code pour trouver les solutions aux
-                        problèmes que je rencontrais en tant que chef d'équipe 🤔 en créant des programmes ou des sites internet.
-                        <br /> Pratiquant la photo et le dessin, je me suis pris de passion pour le développement front qui permet d'exprimer également sa créativité.<br />
-                        Ainsi je me suis lancé dans une deuxième carrière en tant que développeur Front-End React & TypeScript. <br />Si vous qui cherchez un
-                        développeur avec un vécu et un savoir être, contactez-moi. 🫡
+                        problèmes que je rencontrais en tant que chef d'équipe
+                        🤔 en créant des programmes ou des sites internet.
+                        <br /> Pratiquant la photo et le dessin, je me suis pris
+                        de passion pour le développement front qui permet
+                        également d'exprimer sa créativité.
+                        <p className="pt-4">
+                            Cherchant une reconvertion dans un domaine qui me
+                            passionne, je me suis naturellement positionné en
+                            tant que développeur Front-End React & TypeScript.{" "}
+                            <br />
+                            Si vous qui cherchez un développeur avec un vécu et
+                            un savoir être, contactez-moi. 🫡
+                        </p>
                     </p>
-                    <p className="text-lg pt-4 px-8 md:px-0">Travail en remote 💻 et en région parisienne possible.</p>
+                    <p className="text-lg pt-4 px-8 md:px-0">
+                        Travail en remote 💻 et en région parisienne possible.
+                    </p>
                     <div className="flex flex-row items-center mt-4">
                         <p className="text-base italic pl-8 pr-2 md:pl-0 text-rad9">
                             Plus d'infos ici:{" "}
