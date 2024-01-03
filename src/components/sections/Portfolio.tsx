@@ -1,8 +1,7 @@
 //import CardProject from "./CardProject";
-import { projects } from '../../data/projects';
-import { Card } from '../../data/projects';
-import CardProject from './CardProject';
-
+import { projects } from "../../data/projects";
+import { Card } from "../../data/projects";
+import CardProject from "./CardProject";
 
 const Portfolio: React.FC = () => {
     return (
@@ -20,10 +19,11 @@ const Portfolio: React.FC = () => {
                         Mes principaux projets 🔎
                     </p>
                 </div>
-
-                {projects.map((card: Card, index) => (
-                    <CardProject card={card} key={index} />
-                ))}
+                <div className="flex flex-wrap justify-evenly px-4 gap-8 mt-8">
+                    {projects.map((card: Card, index) => (
+                        <CardProject card={card} key={index} />
+                    ))}
+                </div>
             </div>
         </section>
     );
