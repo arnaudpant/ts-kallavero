@@ -4,6 +4,9 @@ export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    borderRadius: {
+      'test': '49% 51% 53% 47% / 53% 40% 60% 47%',
+    },
     colors: {
       primaire: "#F6F6F6",
       "prim-variant": "#dfe4ea",
