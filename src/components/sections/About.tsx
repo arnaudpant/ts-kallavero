@@ -1,6 +1,6 @@
 import about from "./../../img/portfolio/canal.png";
 import mirage from "./../../img/portfolio/M2D.png";
-import { RiNotionFill } from "react-icons/ri";
+import { RiNotionFill, RiArticleFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const About: React.FC = () => {
@@ -26,14 +26,16 @@ const About: React.FC = () => {
                         <br /> Pratiquant la photo et le dessin, je me suis pris
                         de passion pour le développement front qui permet
                         également d'exprimer sa créativité.
-                        <p className="pt-4">
-                            Cherchant une reconvertion dans un domaine qui me
-                            passionne, je me suis naturellement positionné en
-                            tant que développeur Front-End React & TypeScript.{" "}
-                            <br />
-                            Si vous qui cherchez un développeur avec un vécu et
-                            un savoir être, contactez-moi. 🫡
-                        </p>
+                    </p>
+                    <p className="text-lg px-8 md:px-0">
+                        Cherchant une reconvertion dans un domaine qui me
+                        passionne, je me suis naturellement orienté vers le
+                        développement Front-End, en me spécialisant dans React &
+                        TypeScript.
+                    </p>
+                    <p className="text-lg pt-4 px-8 md:px-0">
+                        Si vous qui cherchez un développeur avec un vécu et un
+                        savoir être, contactez-moi. 🫡
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">
                         Travail en remote 💻 et en région parisienne possible.
@@ -45,6 +47,16 @@ const About: React.FC = () => {
                         <Link to="https://continuous-sandalwood-0d9.notion.site/This-is-Arnaud-c8cf4e04a7474303877b86e5a6acd5b2">
                             <span>
                                 <RiNotionFill className="text-4xl text-rad10 cursor-pointer" />
+                            </span>
+                        </Link>
+                    </div>
+                    <div className="flex flex-row items-center mt-4">
+                        <p className="text-base italic pl-8 pr-2 md:pl-0 text-rad9">
+                            Téléchargez mon CV:{" "}
+                        </p>
+                        <Link to="https://flowcv.com/resume/kgrlfo7rug">
+                            <span>
+                                <RiArticleFill className="text-4xl text-rad10 cursor-pointer" />
                             </span>
                         </Link>
                     </div>

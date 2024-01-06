@@ -31,7 +31,7 @@ export const projects: Card[] = [
         img: "./Site5.png",
         title: "HuileVak",
         text: "Site vitrine d'un artisan (Commande client)",
-        desc: "Site e-commerce en construction",
+        desc: "Site e-commerce et landing page en construction",
         code: "",
         tech: ["React", "Tailwind", "Figma"],
         demo: "https://huilevak-demo.netlify.app/",

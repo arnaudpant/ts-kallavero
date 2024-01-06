@@ -5,38 +5,51 @@ import { RiLinkedinFill } from "react-icons/ri";
 
 const Home: React.FC = () => {
     return (
-        <section className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-gradient-to-bl from-rad1 via-rad2 to-rad3"
-            id="home">
-
+        <section
+            className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-gradient-to-bl from-rad1 via-rad2 to-rad3"
+            id="home"
+        >
             {/* == BLOC B & C == */}
             <div className="flex flex-col-reverse justify-around items-center h-4/5 w-full md:flex-row md:h-3/5 md:px-10">
-
                 {/* Bloc C Infos */}
-                <div className="flex flex-col justify-around grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
-
+                <div className="flex flex-col justify-between md:justify-start grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
                     <p className="text-xl md:text-3xl font-semibold px-8 md:px-0">
                         Ensemble développons un produit web innovant
                     </p>
+
                     <div itemScope itemType="https://schema.org/Occupation">
-                        <p className="text-lg pt-4 px-4 md:text-xl md:px-0">
+                        <p className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-8">
                             Bonjour, je suis Arnaud. <span>👋🏻</span>
                         </p>
-                        <h1 className="text-lg pt-2 px-4 md:text-xl md:px-0" itemProp="jobTitle">
+                        <h1
+                            className="text-lg pt-5 px-4 md:text-xl md:px-0 md:pt-8"
+                            itemProp="jobTitle"
+                        >
                             Développeur Front-End
                         </h1>
-                        <h2 className="text-lg pt-2 px-4 md:text-2xl md:px-0">React & Typescript
+                        <h2 className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-4">
+                            React & Typescript
                         </h2>
                     </div>
-                    <button className="w-40 mx-auto bg-rad10 hover:bg-rad8 rounded mt-4 px-2 py-1 text-rad1 md:mx-0">
-                        <a href="mailto:arnaud.pantenier@gmail.com" itemProp="email">
+                    <button className="w-40 mx-auto bg-rad10 hover:bg-rad8 rounded mt-4 md:mt-10 px-2 py-1 text-rad1 md:mx-0 ">
+                        <a
+                            href="mailto:arnaud.pantenier@gmail.com"
+                            itemProp="email"
+                        >
                             Contactez-moi
                         </a>
                     </button>
-                    <div className="flex flex-row justify-center md:justify-start mt-2 md:mt-4 gap-4" itemProp="url">
+                    <div
+                        className="flex flex-row justify-center md:justify-start mt-2 md:mt-10 gap-4"
+                        itemProp="url"
+                    >
                         <Link to="https://www.linkedin.com/in/arnaud-pantenier/">
                             <RiLinkedinFill className="text-3xl text-rad10 cursor-pointer" />
                         </Link>
-                        <Link to="https://github.com/arnaudpant/" itemProp="url">
+                        <Link
+                            to="https://github.com/arnaudpant/"
+                            itemProp="url"
+                        >
                             <RiGithubLine className="text-3xl text-rad10 cursor-pointer mr-2" />
                         </Link>
                     </div>
@@ -47,12 +60,10 @@ const Home: React.FC = () => {
                     <img
                         src={arnaud}
                         alt="Portrait de Arnaud"
-                        className="w-1/2 mx-auto rounded-full shadow-lg md:w-full xl:w-2/3 lg:mx-0"
+                        className="w-2/5 mx-auto rounded-full shadow-lg md:w-full xl:w-2/3 lg:mx-0"
                     />
                 </div>
-
             </div>
-
 
             {/* BOX STACK  */}
             <div className="mt-2 flex flex-col md:flex-row items-center gap-2 md:gap-8">
@@ -95,7 +106,6 @@ const Home: React.FC = () => {
                     </svg>
                 </div>
             </div>
-
 
             {/* BOX SWIPPE */}
             <div className="relative flex justify-center h-12 md:hidden">
