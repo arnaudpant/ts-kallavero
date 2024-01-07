@@ -60,14 +60,13 @@ const Home: React.FC = () => {
 
                 {/* Bloc B Portrait */}
                 <div className="relative mt-8 md:w-1/3 md:mt-0 rounded-test">
-                    <div className="relative bg-secondaire rounded-test overflow-hidden w-2/5 shadow-lg md:w-full xl:w-2/3 lg:mx-0 animate-spin">
-                        <div className="absolute top-0 left-0 right-0 bottom-0">
-                        <img
-                            src={arnaud}
-                            alt="Portrait de Arnaud"
-                            className="top-0 left-0 mx-auto rounded-full lg:mx-0 "
-                        />
-
+                    <div className="relative rounded-full overflow-hidden w-2/5 shadow-lg md:w-full xl:w-2/3 lg:mx-0">
+                        <div className="top-0 left-0 right-0 bottom-0">
+                            <img
+                                src={arnaud}
+                                alt="Portrait de Arnaud"
+                                className="top-0 left-0 mx-auto rounded-full lg:mx-0 "
+                            />
                         </div>
                     </div>
                 </div>
