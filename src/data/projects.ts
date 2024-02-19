@@ -11,6 +11,15 @@ export type Card = {
 export const projects: Card[] = [
     {
         img: "./Site1.png",
+        title: "Site de vente entre particuliers",
+        text: "Projet en équipe de 4 développeurs",
+        desc: "Site e-commerce",
+        code: "https://github.com/arnaudpant/vinted",
+        tech: ["React", "TypeScript", "Firebase"],
+        demo: "https://bootcamp-vinted.netlify.app/",
+    },
+    {
+        img: "./Site1.png",
         title: "Racks à pinard",
         text: "Application de gestion de cave à vin",
         desc: "Projet personnel avec authentification et base de données sur Firebase",
@@ -27,13 +36,4 @@ export const projects: Card[] = [
         tech: ["TypeScript", "Tailwind", "Figma"],
         demo: "https://www.joelle-corda-naturopathe.fr/index.html",
     },
-    {
-        img: "./Site5.png",
-        title: "HuileVak",
-        text: "Site vitrine d'un artisan (Commande client)",
-        desc: "Site e-commerce et landing page en construction",
-        code: "",
-        tech: ["React", "Tailwind", "Figma"],
-        demo: "https://huilevak-demo.netlify.app/",
-    }
 ];
