@@ -46,19 +46,7 @@ const CardProject = ({ card }: Props) => {
                     ))}
                 </div>
 
-                <div className="flex flex-row justify-center items-center pt-4 md:pt-0">
-                    <p className="text-sm pr-1 text-rad11">Code</p>
-                    <span>
-                        {card.code !== "" ? (
-                            <Link to={card.code}>
-                                <RiGithubLine className="testA text-3xl cursor-pointer mr-6 text-rad11" />
-                            </Link>
-                        ) : (
-                            <div className="text-3xl mr-6 cursor-not-allowed">
-                                ⛔️
-                            </div>
-                        )}
-                    </span>
+                <div className="flex justify-center items-end pt-4 md:pt-0">
                     <p className="text-sm pr-1 text-rad11">Demo</p>
                     <span>
                         {card.demo !== "" ? (

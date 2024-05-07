@@ -4,9 +4,6 @@ import { RiGithubLine } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
 
 const Home: React.FC = () => {
-
-
-
     return (
         <section
             className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-gradient-to-bl from-rad1 via-rad2 to-rad3"
@@ -16,23 +13,20 @@ const Home: React.FC = () => {
             <div className="flex flex-col-reverse justify-around items-center h-4/5 w-full md:flex-row md:h-3/5 md:px-10">
                 {/* Bloc C Infos */}
                 <div className="flex flex-col justify-between md:justify-start grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
-                    <p className="text-xl md:text-3xl font-semibold px-8 md:px-0">
-                        Ensemble développons un produit web innovant
-                    </p>
-
                     <div itemScope itemType="https://schema.org/Occupation">
                         <p className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-8">
                             Bonjour, je suis Arnaud. <span>👋🏻</span>
                         </p>
                         <h1
-                            className="text-lg pt-5 px-4 md:text-xl md:px-0 md:pt-8"
+                            className="text-rad10 text-xl pt-5 px-4 md:text-3xl md:px-0 md:pt-8"
                             itemProp="jobTitle"
                         >
-                            Développeur Front-End
-                        </h1>
-                        <h2 className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-4">
+                            Développeur Front-End <br />
                             React & Typescript
-                        </h2>
+                        </h1>
+                        <p className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-8">
+                            Ensemble développons un produit web innovant !
+                        </p>
                     </div>
                     <button className="w-40 mx-auto bg-rad10 hover:bg-rad8 rounded mt-4 md:mt-10 px-2 py-1 text-rad1 md:mx-0 ">
                         <a
