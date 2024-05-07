@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
                         <RiMapPin2Line className="text-4xl text-rad9 mr-2" />
                         <p itemProp="addressLocality">Nancy, FRANCE 🇫🇷</p>
                     </div>
-                    <p className="pt-4 text-center md:text-left">Ouvert au télétravail et région parisienne</p>
+                    <p className="pt-4 text-center md:text-left">Lorraine - Luxembourg et région parisienne</p>
                 </div>
 
             </div>
