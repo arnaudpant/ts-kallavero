@@ -15,30 +15,38 @@ const About: React.FC = () => {
                     <h2 className="text-xl md:text-2xl text-rad9 font-bold px-8 md:px-0">
                         A propos de moi
                     </h2>
-                    <p className="text-lg pt-4 px-8 md:px-0 ">
+                    <h3 className="text-lg pt-4 px-8 md:px-0">
+                        De la maintenance des Mirages 2000 🚀 au développement
+                        web 👨🏼‍💻{" "}
+                    </h3>
+                    <p className="text-lg pt-4 px-8 md:px-0">
                         Fana d'aviation, j'ai effectué une première carrière
-                        dans l'Armée de l'Air a réparer et entretenir des avions
+                        dans l'Armée de l'Air à réparer et entretenir des avions
                         de chasse au sein d'équipes de mécaniciens ✈️
                         <br />
                         J'ai découvert le code pour trouver les solutions aux
                         problèmes que je rencontrais en tant que chef d'équipe
-                        🤔 en créant des programmes ou des sites internet.
+                        🤔 en créant des dashboards et des sites internet.
                         <br /> Pratiquant la photo et le dessin, je me suis pris
                         de passion pour le développement front qui permet
                         également d'exprimer sa créativité.
                     </p>
                     <p className="text-lg px-8 md:px-0">
-                        Cherchant une reconvertion dans un domaine qui me
-                        passionne, je me suis naturellement orienté vers le
-                        développement Front-End, en me spécialisant dans React &
-                        TypeScript.
+                        Aujourd'hui je suis développeur Front-End, spécialisé
+                        dans React & TypeScript.
+                    </p>
+                    <p className="text-lg px-8 md:px-0">
+                        Grâce à mon passé militaire j’ai acquis des compétences
+                        uniques et transférables au monde du développement avec
+                        une solide experience du travail en équipe. Se sont des
+                        atouts précieux pour tous projets.
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">
-                        Si vous qui cherchez un développeur avec un vécu et un
-                        savoir être, contactez-moi. 🫡
+                        Si vous cherchez un développeur sérieux avec un savoir
+                        être, contactez-moi.
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">
-                        Travail en remote 💻 et en région parisienne possible.
+                        Disponible en Lorraine, Luxembourg et région parisienne.
                     </p>
                     <div className="flex flex-row items-center mt-4">
                         <p className="text-base italic pl-8 pr-2 md:pl-0 text-rad9">
