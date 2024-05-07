@@ -31,15 +31,16 @@ const About: React.FC = () => {
                         de passion pour le développement front qui permet
                         également d'exprimer sa créativité.
                     </p>
-                    <p className="text-lg px-8 md:px-0">
+                    <p className="text-lg pt-4 px-8 md:px-0">
                         Aujourd'hui je suis développeur Front-End, spécialisé
                         dans React & TypeScript.
                     </p>
-                    <p className="text-lg px-8 md:px-0">
+                    <p className="text-lg pt-4 px-8 md:px-0">
                         Grâce à mon passé militaire j’ai acquis des compétences
                         uniques et transférables au monde du développement avec
-                        une solide experience du travail en équipe. Se sont des
-                        atouts précieux pour tous projets.
+                        une solide experience du travail en équipe.
+                        <br />
+                        Ce sont des atouts précieux pour tous projets.
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">
                         Si vous cherchez un développeur sérieux avec un savoir

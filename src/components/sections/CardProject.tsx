@@ -1,4 +1,4 @@
-import { RiGithubLine, RiLayout5Fill } from "react-icons/ri";
+import { RiLayout5Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { Card } from '../../data/projects';
 import AOS from 'aos';
