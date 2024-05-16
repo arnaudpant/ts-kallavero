@@ -15,7 +15,7 @@ const About: React.FC = () => {
                     <h2 className="text-xl md:text-2xl text-rad9 font-bold px-8 md:px-0">
                         A propos de moi
                     </h2>
-                    <h3>
+                    <h3 className="text-xl pt-4 px-8 md:px-0 ">
                         De la maintenance des Mirages 2000 🚀 au développement
                         web 👨🏼‍💻{" "}
                     </h3>
@@ -37,12 +37,13 @@ const About: React.FC = () => {
                     </p>
                     <p className="text-lg px-8 md:px-0">
                         Grâce à mon passé militaire j’ai acquis des compétences
-                        uniques et transférables au monde du développement avec une solide experience du travail en équipe. Se sont des atouts précieux
-                        pour toutes équipes.
+                        uniques et transférables au monde du développement avec
+                        une solide experience du travail en équipe. Se sont des
+                        atouts précieux pour toutes équipes.
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">
-                        Si vous cherchez un développeur sérieux avec un
-                        savoir être, contactez-moi.
+                        Si vous cherchez un développeur sérieux avec un savoir
+                        être, contactez-moi.
                     </p>
                     <p className="text-lg pt-4 px-8 md:px-0">
                         Travail en Lorraine, Luxembourg et région parisienne.
