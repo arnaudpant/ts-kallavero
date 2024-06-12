@@ -4,35 +4,26 @@ import { RiGithubLine } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
 
 const Home: React.FC = () => {
-
-
-
     return (
         <section
-            className="flex flex-col justify-between items-center w-full h-screen md:pt-14 md:justify-evenly bg-gradient-to-bl from-rad1 via-rad2 to-rad3"
+            className="flex flex-col justify-around items-center w-full h-screen md:pt-14 md:justify-evenly bg-gradient-to-bl from-rad1 via-rad2 to-rad3"
             id="home"
         >
             {/* == BLOC B & C == */}
             <div className="flex flex-col-reverse justify-around items-center h-4/5 w-full md:flex-row md:h-3/5 md:px-10">
                 {/* Bloc C Infos */}
-                <div className="flex flex-col justify-between md:justify-start grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
-                    <p className="text-xl md:text-3xl font-semibold px-8 md:px-0">
-                        Ensemble développons un produit web innovant
-                    </p>
-
+                <div className="flex flex-col justify-around md:justify-start grow mt-6 text-center md:text-left md:w-2/3 md:h-3/5 md:mt-0 md:px-10 text-rad12">
                     <div itemScope itemType="https://schema.org/Occupation">
-                        <p className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-8">
+                        <p className="text-xl pt-2 px-4 md:text-2xl md:px-0 md:pt-8">
                             Bonjour, je suis Arnaud. <span>👋🏻</span>
                         </p>
                         <h1
-                            className="text-lg pt-5 px-4 md:text-xl md:px-0 md:pt-8"
+                            className="text-rad10 text-2xl pt-5 px-4 md:text-4xl md:px-0 md:pt-8"
                             itemProp="jobTitle"
                         >
-                            Développeur Front-End
-                        </h1>
-                        <h2 className="text-lg pt-2 px-4 md:text-xl md:px-0 md:pt-4">
+                            Développeur Front-End <br />
                             React & Typescript
-                        </h2>
+                        </h1>
                     </div>
                     <button className="w-40 mx-auto bg-rad10 hover:bg-rad8 rounded mt-4 md:mt-10 px-2 py-1 text-rad1 md:mx-0 ">
                         <a
@@ -60,7 +51,7 @@ const Home: React.FC = () => {
 
                 {/* Bloc B Portrait */}
                 <div className="flex justify-center md:justify-start mt-8 md:w-1/3 md:mt-0">
-                    <div className="relative rounded-full overflow-hidden w-2/5 shadow-lg md:w-full xl:w-2/3 lg:mx-0">
+                    <div className="relative rounded-full overflow-hidden w-2/5 shadow-lg md:w-full lg:mx-0">
                         <div className="top-0 left-0 right-0 bottom-0">
                             <img
                                 src={arnaud}

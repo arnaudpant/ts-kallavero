@@ -8,7 +8,6 @@ const Contact: React.FC = () => {
             id="contact"
         >
             <div className="container mx-auto my-16 md:px-4 flex flex-col md:flex-row justify-center items-start">
-
                 {/* CONTACT */}
                 <div className="w-full md:w-1/2">
                     <h2 className="text-xl md:text-2xl text-center md:text-left text-rad9 font-bold px-8 md:px-0">
@@ -22,7 +21,10 @@ const Contact: React.FC = () => {
                         <div className="flex flex-row items-center">
                             <button className="flex flex-row items-center bg-rad10 hover:bg-rad8 rounded px-2 py-1 text-rad1">
                                 <RiMailSendFill className="text-4xl text-primaire mr-2" />
-                                <a href="mailto:arnaud.pantenier@gmail.com" itemProp = "email">
+                                <a
+                                    href="mailto:arnaud.pantenier@gmail.com"
+                                    itemProp="email"
+                                >
                                     Contactez-moi
                                 </a>
                             </button>
@@ -35,13 +37,17 @@ const Contact: React.FC = () => {
                     <h2 className="text-xl md:text-2xl text-center md:text-left text-rad9 font-bold px-8 md:px-0">
                         Localisation
                     </h2>
-                    <div className="w-full md:w-1/2 flex flex-row items-center justify-center md:justify-start md:mt-0 pt-4" itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
+                    <div
+                        className="w-full md:w-1/2 flex flex-row items-center justify-center md:justify-start md:mt-0 pt-4"
+                        itemProp="address"
+                        itemScope
+                        itemType="https://schema.org/PostalAddress"
+                    >
                         <RiMapPin2Line className="text-4xl text-rad9 mr-2" />
                         <p itemProp="addressLocality">Nancy, FRANCE 🇫🇷</p>
                     </div>
                     <p className="pt-4 text-center md:text-left">Lorraine - Luxembourg et région parisienne</p>
                 </div>
-
             </div>
         </section>
     );
